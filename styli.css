@@ -1,0 +1,279 @@
+body{
+    background-color: rgba(103, 200, 145, 0.816);
+}
+
+
+.cabecalho{
+    
+    background-image: linear-gradient(to bottom , rgba(10, 123, 34, 0.158), rgba(5, 62, 9, 0.711));
+    height: 100%;
+   
+    text-align: center;
+    margin: auto;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+    
+    
+}
+
+
+
+h2{
+    
+    background-image: linear-gradient(to right , rgba(95, 237, 126, 0.307), rgba(156, 228, 160, 0));
+    margin-left: 10px;
+    margin-right: 20px;
+    font-family: "idroid";
+    color: rgb(22, 90, 22);
+    
+
+}
+@font-face{
+     font-family: 'idroid';
+    src: url("fontes/idroid.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+    
+    
+
+
+article h1{
+     background-image: linear-gradient(to right , rgba(95, 237, 126, 0.307), rgba(156, 228, 160, 0));
+   
+    font-family: "idroid";
+    color: rgb(22, 90, 22);
+    margin-left: 10px;
+    margin-right: 20px;
+
+    
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    height:80px ;
+    align-items: flex-end;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    padding: 5px 5px;
+
+}
+
+a:hover{
+    background-color: rgba(72, 215, 72, 0.851);
+    color: rgba(0, 0, 0, 0.992);
+    border-radius: 5px;
+    padding: 6px;
+}
+
+article{
+    width: 1000px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    padding-bottom: 10px;
+    border-radius: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+} 
+article p{
+    margin: 15px 15px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+.lista{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+     margin: auto;
+}
+
+
+.lista01 li::before {
+  content: "✔";
+  color: black;
+  margin-right: 8px;
+}
+
+section{
+    background-color: rgba(81, 187, 125, 0.816);
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+     
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+   
+
+}
+section h1{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(38, 85, 58, 0.816);
+    margin: auto;
+    padding-top: 5px;
+    border-radius: 10px;
+
+}
+
+section a{
+    color:rgb(15, 114, 56) ;
+    font-size: larger;
+}
+
+article a {
+    background-color:rgb(38, 136, 79) ;
+    color: black;
+}
+
+footer{
+    color: white;
+   background-color: rgba(38, 85, 58, 0.816);
+   justify-content: center;
+    text-align: center;
+   
+}
+
+
+img#irida{
+    width: 1000px;
+    
+    
+}
+#droids{
+    display: block;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+img#bugdroid{
+    
+    display: block;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+img{
+    width: 800px;
+
+     align-items: center;
+     margin: auto;
+    
+}
+
+article a::after {
+  content: "🔗 ";
+ 
+}
+
+@media (max-width: 400px){
+    img{
+     width: 100%;
+     align-items: center;
+     margin: auto;
+    }
+      img#droids{
+     width: 100%;
+     align-items: center;
+     margin: auto;
+    }
+
+     img#irida{
+     width: 100%;
+    }
+    img#bugdroid{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+     .cabecalho{
+        width: 100%;
+        
+     }
+     nav{
+        width: 100%;
+     }
+
+     article{ 
+        width: 100%;    
+        margin: auto;
+     }
+      selection#extra{
+        width: 100%;
+    
+    }
+
+
+
+}
+
+
+
+@media (max-width: 900px){
+
+     article{ 
+        width: 100%;    
+       
+        margin: auto;
+     }
+    img{
+     width: 100%;
+     align-items: center;
+     margin: auto;
+    }
+      selection#extra{
+        width: 100%;
+    
+    }
+
+     img#irida{
+     width: 100%;
+    }
+     .cabecalho{
+        width: 100%;
+        
+
+
+     }
+     img#droids{
+        width:100% ;
+     }
+     nav{
+        width: 100%;
+     }
+
+}
+    
+
+
+
+
+
